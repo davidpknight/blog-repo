@@ -33,6 +33,21 @@ SOCIAL = (('twitter', 'http://twitter.com/davepknight'),
 DEFAULT_PAGINATION = 10
 
 THEME = 'pelican-bootstrap3-master'
+BOOTSTRAP_THEME = 'simplex'
+
+AVATAR = './images/david-knight-hs.jpg'
+
+BANNER = './images/urbanplanbanner.png'
+
+TWITTER_USERNAME = 'davepknight'
+TWITTER_WIDGET_ID = 'https://twitter.com/settings/widgets/718741304658669568/edit'
+
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = ["tag_cloud"]
+
+DISPLAY_TAGS_ON_SIDEBAR = True
+DISPLAY_TAGS_INLINE = True
+DISPLAY_CATEGORIES_ON_SIDEBAR = True
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
